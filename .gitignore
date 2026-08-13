@@ -1,0 +1,34 @@
+# ============================================================
+#  SECRETS — never commit these. This is the file that keeps
+#  your API keys off GitHub.
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# ============================================================
+#  Local data — your applications, lessons, and generated
+#  resumes are personal. No reason for them to be public.
+# ============================================================
+storage/
+output/
+*.docx
+*.pdf
+
+# ============================================================
+#  Python / editor noise
+# ============================================================
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.vscode/
+.idea/
